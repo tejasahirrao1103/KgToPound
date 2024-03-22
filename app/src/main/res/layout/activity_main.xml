@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="Kilo to Pound Converter"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#6200EE"
+        />
+
+    <EditText
+        android:id="@+id/edtKg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="9"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:hint="Enter value in Kg"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/txtOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textColor="#BF0069"
+        android:textStyle="italic|bold"
+        android:textSize="15sp"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/kg"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+</LinearLayout>
